@@ -1,0 +1,23 @@
+.settingbar {
+    width: 100%;
+    box-shadow: 0 4px 5px gray;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    height: 40px;
+
+    &_wrapper {
+        width: 38%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input {
+        margin-left: 20px;
+    }
+
+    label {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
